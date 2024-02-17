@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#great {
+ background-image: url(img/6SSp.gif);
+}
+
+#image-container {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+#thanks {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5em;
+}
+
+#image-container2 {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+
+#pochita {
+    width: 100%;
+    height: auto;
+}
+
+#yes-btn, #no-btn {
+    background: rgb(244,101,0);
+    background: linear-gradient(90deg, rgba(244,101,0,1) 0%, rgba(249,192,164,1) 50%, rgba(247,120,8,1) 100%);    border-radius: 50px;
+    padding: 20px 40px;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+
+#yes-btn:hover{
+    animation: bubble 0.4s ease-out;
+    background: rgb(172,72,0);
+    background: linear-gradient(90deg, rgba(172,72,0,1) 0%, rgba(255,112,17,1) 50%, rgba(188,88,0,1) 100%);
+
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+@keyframes bubble {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
